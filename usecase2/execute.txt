@@ -3,20 +3,26 @@ Biosimilar Legitimacy Dashboard Setup
 1. Open PowerShell in the project folder.
 2. Create a virtual environment:
    python -m venv .venv
-3. Activate it:
+3. If PowerShell blocks activation scripts, run this first:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+4. Activate the virtual environment:
    .\.venv\Scripts\Activate.ps1
-4. Install dependencies:
+   
+   If you prefer Command Prompt instead of PowerShell:
+   .\.venv\Scripts\activate.bat
+5. Install dependencies:
    python -m pip install -r requirements.txt
-5. Generate the synthetic dataset:
+6. Generate the synthetic dataset:
    python src/data/generate_legitimacy_dataset.py
-6. Run the app:
-   streamlit run app.py
-7. Open the browser URL shown in the terminal (usually http://localhost:8501)
+7. Run the app:
+   python -m streamlit run app.py
+8. Open the browser URL shown in the terminal (usually http://localhost:8501)
 
 Optional:
-- If Streamlit is not recognized, use:
-  python -m streamlit run app.py
+- If you still get a command-not-found error, run:
+  python -m pip install streamlit plotly
 
 Note:
 - The project uses synthetic, presentation-focused biosimilar data.
 - This folder is organized for easy GitHub drag-and-drop upload.
+- PowerShell can block .ps1 activation scripts on some systems; using Set-ExecutionPolicy with Scope Process fixes it for the current terminal only.
