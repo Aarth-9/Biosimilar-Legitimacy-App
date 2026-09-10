@@ -1,0 +1,16 @@
+product_name,product_type,molecule,therapeutic_area,reference_product,overall_legitimacy_score,quality_score,comparability_score,safety_score,efficacy_score,regulatory_score,side_effect_profile,approval_status
+Lantus,originator,Insulin Glargine,Endocrinology,Lantus,96,96,97,94,94,97,Low,Approved
+Humira,originator,Adalimumab,Immunology,Humira,95,95,96,93,95,96,Low,Approved
+Herceptin,originator,Trastuzumab,Oncology,Herceptin,95,95,96,92,96,97,Moderate,Approved
+Rituxan,originator,Rituximab,Oncology,Rituxan,95,95,96,92,95,97,Low to moderate,Approved
+Enbrel,originator,Etanercept,Rheumatology,Enbrel,94,94,95,91,94,96,Moderate,Approved
+Insulin Glargine Biosimilar B,candidate,Insulin Glargine,Endocrinology,Lantus,93,94,95,92,91,93,Low,Approved in selected markets
+Basaglar,similar_biologic,Insulin Glargine,Endocrinology,Lantus,91,92,93,90,90,92,Low,Approved
+Truxima,similar_biologic,Rituximab,Oncology,Rituxan,90,91,92,89,90,90,Low to moderate,Approved
+Rituximab Biosimilar E,candidate,Rituximab,Oncology,Rituxan,90,92,93,90,89,89,Low to moderate,Under regulatory review
+Adalimumab Biosimilar A,candidate,Adalimumab,Immunology,Humira,90,91,92,89,90,88,Low to moderate,Under regulatory review
+Trastuzumab Biosimilar C,candidate,Trastuzumab,Oncology,Herceptin,89,90,91,88,89,90,Moderate,Approved
+Amgevita,similar_biologic,Adalimumab,Immunology,Humira,89,90,91,88,89,90,Low to moderate,Approved
+Etanercept Biosimilar D,candidate,Etanercept,Rheumatology,Enbrel,88,89,90,87,88,86,Moderate,Approved
+Ogivri,similar_biologic,Trastuzumab,Oncology,Herceptin,88,89,90,87,88,89,Moderate,Approved
+Erelzi,similar_biologic,Etanercept,Rheumatology,Enbrel,87,88,89,86,87,87,Moderate,Approved

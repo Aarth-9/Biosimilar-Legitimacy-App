@@ -1,0 +1,22 @@
+Biosimilar Legitimacy Dashboard Setup
+
+1. Open PowerShell in the project folder.
+2. Create a virtual environment:
+   python -m venv .venv
+3. Activate it:
+   .\.venv\Scripts\Activate.ps1
+4. Install dependencies:
+   python -m pip install -r requirements.txt
+5. Generate the synthetic dataset:
+   python src/data/generate_legitimacy_dataset.py
+6. Run the app:
+   streamlit run app.py
+7. Open the browser URL shown in the terminal (usually http://localhost:8501)
+
+Optional:
+- If Streamlit is not recognized, use:
+  python -m streamlit run app.py
+
+Note:
+- The project uses synthetic, presentation-focused biosimilar data.
+- This folder is organized for easy GitHub drag-and-drop upload.

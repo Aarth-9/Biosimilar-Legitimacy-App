@@ -1,0 +1,16 @@
+product_name,product_type,manufacturer,approval_status,regulatory_score,interchangeability_status,overall_legitimacy_score,quality_score,comparability_score
+Adalimumab Biosimilar A,candidate,BioComp Pharma,Under regulatory review,88,Not yet established,90,91,92
+Insulin Glargine Biosimilar B,candidate,NovaBiologics,Approved in selected markets,93,Approved interchangeability,93,94,95
+Trastuzumab Biosimilar C,candidate,OncoMimic Ltd,Approved,90,Not approved,89,90,91
+Etanercept Biosimilar D,candidate,CellCare Bio,Approved,86,Not yet established,88,89,90
+Rituximab Biosimilar E,candidate,BioGenome Solutions,Under regulatory review,89,Not approved,90,92,93
+Humira,originator,AbbVie,Approved,96,Approved,95,95,96
+Lantus,originator,Sanofi,Approved,97,Approved,96,96,97
+Herceptin,originator,Roche,Approved,97,Approved,95,95,96
+Enbrel,originator,Amgen,Approved,96,Approved,94,94,95
+Rituxan,originator,Genentech,Approved,97,Approved,95,95,96
+Amgevita,similar_biologic,Amgen,Approved,90,Not approved,89,90,91
+Basaglar,similar_biologic,Eli Lilly,Approved,92,Approved,91,92,93
+Ogivri,similar_biologic,Mylan,Approved,89,Not approved,88,89,90
+Erelzi,similar_biologic,Sandoz,Approved,87,Not approved,87,88,89
+Truxima,similar_biologic,Celltrion,Approved,90,Not approved,90,91,92
