@@ -56,34 +56,44 @@ usecase2/
 
 ## Setup
 
-1. Open PowerShell or Command Prompt in the project folder.
+1. Open PowerShell in the project folder.
 2. Create a virtual environment:
 
 ```bash
 python -m venv .venv
 ```
 
-3. Activate it:
+3. If PowerShell blocks script execution, run this once in the current terminal:
 
-On Windows PowerShell:
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+4. Activate the virtual environment:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
 ```
 
-4. Install dependencies:
+If you prefer Command Prompt instead of PowerShell:
+
+```cmd
+.\.venv\Scripts\activate.bat
+```
+
+5. Install dependencies:
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-5. Generate the dataset:
+6. Generate the dataset:
 
 ```bash
 python src/data/generate_legitimacy_dataset.py
 ```
 
-6. Run the dashboard:
+7. Run the dashboard:
 
 ```bash
 streamlit run app.py
